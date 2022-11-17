@@ -1,0 +1,50 @@
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+h1{
+  text-align: center;
+}
+
+h3 {
+  width: 100%;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+
+.gameBoard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 325px;
+  justify-content: center;
+}
+
+#\35  {
+  line-height: 95px;
+  text-align: center;
+  font-size: x-large;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  border-radius: 6px;
+  margin: 3px;
+  cursor : pointer;
+}
+#startBtn {
+  width: 200px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 6px;
+  margin: 30px;
+  text-align: center;
+  line-height: 25px;
+  cursor : pointer; 
+}
